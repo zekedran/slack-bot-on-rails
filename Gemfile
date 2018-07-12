@@ -43,7 +43,11 @@ gem 'react-rails'
 gem 'sprockets-coffee-react'
 gem 'js-routes'
 
+# Tiemzone data
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
+
+# Concurrency gem
+gem 'faye-websocket'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
