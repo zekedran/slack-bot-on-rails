@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
 # Use sqlite3 as the database for Active Record
-gem 'pg'
+gem 'pg', '~> 0.15'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -42,6 +42,8 @@ gem 'haml-rails'
 gem 'react-rails'
 gem 'sprockets-coffee-react'
 gem 'js-routes'
+
+gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
